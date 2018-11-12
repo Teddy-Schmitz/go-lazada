@@ -1,16 +1,16 @@
-# Go Lazada [![GoDoc](https://godoc.org/github.com/teddy-schmitz/go-lazada/lazada?status.png)](https://godoc.org/github.com/teddy-schmitz/go-lazada/lazada)
+# Go Lazada [![GoDoc](https://godoc.org/github.com/Teddy-Schmitz/go-lazada/lazada?status.png)](https://godoc.org/github.com/Teddy-Schmitz/go-lazada/lazada)
 Unofficial Go library for the [Lazada Open Platform]("https://open.lazada.com/")
 
 ## Install
 
 ```
-go get github.com/teddy-schmitz/go-lazada
+go get github.com/Teddy-Schmitz/go-lazada
 ```
 
 ## Usage
 
 ```go
-import "github.com/teddy-schmitz/go-lazada/lazada"
+import "github.com/Teddy-Schmitz/go-lazada/lazada"
 ```
 
 Construct a client with a specific region

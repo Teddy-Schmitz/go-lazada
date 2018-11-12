@@ -10,8 +10,8 @@ func (s StringMap) MarshalXML(e *xml.Encoder, start xml.StartElement) error {
 	tokens := []xml.Token{}
 
 	for key, value := range s {
-		t := xml.StartElement{Name: xml.Name{"", key}}
-		tokens = append(tokens, t, xml.CharData(value), xml.EndElement{t.Name})
+		t := xml.StartElement{Name: xml.Name{Space: "", Local: key}}
+		tokens = append(tokens, t, xml.CharData(value), xml.EndElement{Name: t.Name})
 	}
 
 	for _, t := range tokens {

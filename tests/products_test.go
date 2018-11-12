@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"gitlab.com/teddy-schmitz/go-lazada/lazada"
+	"gitlab.com/Teddy-Schmitz/go-lazada/lazada"
 )
 
 var AppKey = os.Getenv("APP_KEY")

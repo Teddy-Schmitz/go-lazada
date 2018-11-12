@@ -13,12 +13,11 @@ var apiNames = map[string]string{
 	"GetProducts":        "/products/get",
 }
 
-// Lazada Regions
 type Region string
 
 const (
 	SriLanka    Region = "lk"
-	Phillipines        = "ph"
+	Philippines        = "ph"
 	Bangladesh         = "bd"
 	Thailand           = "th"
 	Vietnam            = "vn"
@@ -33,7 +32,7 @@ const (
 // endpoints maps a regions shortcode to its URL
 var endpoints = map[Region]string{
 	SriLanka:    "https://api.daraz.lk/",
-	Phillipines: "https://api.lazada.com.ph/",
+	Philippines: "https://api.lazada.com.ph/",
 	Bangladesh:  "https://api.daraz.com.bd/",
 	Thailand:    "https://api.lazada.co.th/",
 	Vietnam:     "https://api.lazada.vn/",
